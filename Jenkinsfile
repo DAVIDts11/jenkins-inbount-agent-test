@@ -1,5 +1,6 @@
 pipeline {
-    agent { label 'inb-agent-test' }
+    // agent { label 'inb-agent-test' }
+    agent { label 'dind-agent' }
 
     stages {
         stage('Hello') {
